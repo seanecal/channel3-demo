@@ -1,0 +1,19 @@
+.w3__navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.w3__navbar-logo {
+  width: 240px
+}
+
+.w3__navbar-logo img {
+  width: 100%;
+}
+
+
+@media screen and (max-width:900px){
+  .w3__navbar-logo {
+    width: 120px
+  }
+}
