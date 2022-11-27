@@ -16,6 +16,37 @@
   width: 50%;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.w3__hader-left__text {
+  position:absolute;
+  animation: twinkle 10s infinite;
+}
+
+.w3__hader-left__text img {
+  width: 100%;
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 1;
+  }
+  40%{
+    opacity: 0.2;
+  }
+  55% {
+    opacity: 0.8;
+  }
+  65% {
+    opacity: 0.35;
+  }
+  75% {
+    opacity: 0.9;
+  }
+  85% {
+    opacity: 0.5;
+  }
 }
 
 .w3__header-leftcontainer button {
@@ -121,8 +152,33 @@
   max-height: 100%;
 }
 
+.w3__header-right-decentralized {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  z-index: 0;
+}
+
+.w3__header-right-news {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+}
+
 .w3__header-right img {
   width: 100%;
+}
+
+.w3__header-right__hero {
+  z-index: 100;
 }
 
 .w3__header-right__text {
@@ -132,6 +188,7 @@
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 100;
 }
 
 .w3__header-right__text h3 {
@@ -153,7 +210,7 @@
 @media screen and (max-width:1300px){
   .w3__header-container {
     padding: 0rem;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items:center ;
   }
