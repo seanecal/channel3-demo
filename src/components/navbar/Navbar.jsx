@@ -7,6 +7,9 @@ export function Navbar() {
       <div className="w3__navbar-logo">
         <img src={logo} alt="" />
       </div>
+      <div className="w3__navbar-text">
+        <p>| The Web3.0 Media</p>
+      </div>
     </div>
   )
 }

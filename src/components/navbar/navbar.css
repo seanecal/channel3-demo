@@ -1,6 +1,6 @@
 .w3__navbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .w3__navbar-logo {
@@ -11,9 +11,31 @@
   width: 100%;
 }
 
+.w3__navbar-text {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.w3__navbar-text p {
+  font-size: 1rem;
+  color: #fff;
+  font-family: var(--font-roboto);
+  font-weight: 200;
+  line-height: 1.6;
+}
+
 
 @media screen and (max-width:900px){
   .w3__navbar-logo {
     width: 120px
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .w3__navbar-text p {
+    font-size: 0.5rem;
   }
 }
