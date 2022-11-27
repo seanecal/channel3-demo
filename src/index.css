@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap');
+:root {
+  --font-roboto: 'Roboto', sans-serif;
+  --font-greatvibes:'Great Vibes', cursive;
+
+  --gradient-text: linear-gradient(89.97deg, #E76146 1.84%, #FFD702 102.67%)
+  --gradient-header: radial-gradient(89.44% 191.89% at 8.45% 95.12%, #03275E 0%, rgba(3, 75, 50, 0.333333) 77.45%, rgba(32, 108, 48, 0.35) 89.58%, rgba(248, 252, 67, 0.19) 99.48%);
+
+  --color-button: #FCC202;
+  --color-bg: #03275E;
+}
