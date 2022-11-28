@@ -82,3 +82,9 @@
     padding: 2rem 4rem;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .wf__footer-links_logo img {
+    width: 100%;
+  }
+}

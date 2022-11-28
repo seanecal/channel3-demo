@@ -39,10 +39,6 @@ export function Header() {
           <div className="w3__header-right__hero">
             <img src={hero} alt="a man recording with his phone" />
           </div>
-          <div className="w3__header-right__text">
-            <h3>Everyone is a journalist</h3>
-            <img src={line} alt="" />
-          </div>
         </div>
       </div>
     </div>

@@ -1,8 +1,13 @@
 import './discription.css'
+import line from '../../assets/line.png'
 
 export function Discription() {
   return(
     <div className="w3__body__discription">
+      <div className="w3__body-title">
+        <h3>Everyone is a journalist</h3>
+        <img src={line} alt="" />
+      </div>
       <p>
         Channel 3's vision is to explore the possibility of Web 3.0 in changing the traditional news and social media.
         <br />
