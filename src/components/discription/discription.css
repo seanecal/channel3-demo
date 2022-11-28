@@ -1,0 +1,35 @@
+.w3__body__discription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 8rem;
+}
+
+.w3__body__discription p {
+  font-family: var(--font-roboto);
+  line-height: 1.6;
+  font-size: 32px;
+  color: #fff;
+  opacity: .5;
+}
+
+.w3__body__discription b {
+  color: var(--color-button);
+}
+
+@media screen and (max-width:900px) {
+  .w3__body__discription {
+    padding: 1rem 3rem;
+  }
+}
+@media screen and (max-width:550px) {
+  .w3__body__discription {
+    padding: 0rem 2rem;
+
+  }
+
+  .w3__body__discription p{
+    font-size: 24px;
+  }
+}
