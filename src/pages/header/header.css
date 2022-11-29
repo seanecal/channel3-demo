@@ -12,7 +12,7 @@
 .w3__header-leftcontainer {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 2;
   width: 50%;
   justify-content: center;
   align-items: center;
@@ -154,19 +154,19 @@
 
 .w3__header-right-decentralized {
   position: absolute;
-  top: -130px;
-  left: 50px;
+  top: 120px;
+  left: 100px;
   bottom: 0;
   right: 0;
   width: 50%;
   height: 50%;
-  z-index: 0;
+  z-index: 1;
 }
 
 .w3__header-right-news {
   position: absolute;
-  top: -40px;
-  left: 200px;
+  top: 160px;
+  left: 100px;
   bottom: 0;
   right: 0;
   width: 50%;
@@ -179,7 +179,7 @@
 }
 
 .w3__header-right__hero {
-  z-index: 100;
+  z-index: 0;
 }
 
 .w3__header-right-decentralized,

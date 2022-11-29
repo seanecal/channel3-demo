@@ -7,9 +7,11 @@ import line from '../../assets/line.png'
 import text from '../../assets/hero-text.png'
 import d from '../../assets/d-text.png'
 import n from '../../assets/n-text.png'
+import { Parallax } from 'react-parallax'
 
 export function Header() {
   return(
+    <Parallax strength={800}>
     <div className="w3__header section__padding gradient-bg">
       <Navbar />
       <div className="w3__header-container">
@@ -42,5 +44,6 @@ export function Header() {
         </div>
       </div>
     </div>
+    </Parallax>
   )
 }
