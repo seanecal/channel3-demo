@@ -1,5 +1,5 @@
 import './header.css'
-import {Navbar} from '../../components'
+import { Navbar } from '../../components'
 import butterfly_left from '../../assets/logo-left.png'
 import butterfly_right from '../../assets/logo-right.png'
 import hero from '../../assets/c3-hero.png'
